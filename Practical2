@@ -1,0 +1,16 @@
+/* try and catch program */
+
+public class Shop {
+    
+    public static void main(String[] args) {
+        
+        try {
+        String[] Stationeries = {"Pen","Pencil","Eraser"};
+        System.out.println(Stationeries[5]);
+            
+        }
+        catch (Exception ex) {
+        System.out.println("This item is not a stationery!");
+        }
+    }
+}
