@@ -1,0 +1,21 @@
+/* constructor, class and object program */
+
+public class Connector_Class {
+    
+    String Word1, Word2, Phrase;
+    
+    public Connector_Class() {
+        
+        Word1 = "Red";
+        Word2 = "Apple";
+        Phrase = Word1 + " " + Word2;
+    }
+    
+    public static void main(String args[]) {
+        
+        Connector_Class Connector_Obj = new Connector_Class();
+        System.out.println(Connector_Obj.Word1);
+        System.out.println("\n" + Connector_Obj.Word2);
+        System.out.println("\n" + Connector_Obj.Phrase);
+    }
+}
