@@ -1,3 +1,5 @@
+// Example For Inheritance (OOP) Development
+
 public class Vehicle { // Superclass
     
     protected String brand = "Ford"; // String
@@ -6,13 +8,14 @@ public class Vehicle { // Superclass
     }
 }
 
-class Car extends Vehicle {
+// This is where the "Inheritance" implements
+class Car extends Vehicle { // Subclass which is dervied from Superclass by using "extends"
 
-  private String modelName = "Mustang";
-  public static void main(String args[]) {
-    Car myFastCar = new Car();
-    myFastCar.honk();
-    System.out.println(myFastCar.brand + " " + myFastCar.modelName);
+  private String modelName = "Mustang"; // String
+  public static void main(String args[]) { // Main Method
+    Car myFastCar = new Car(); // Create an Object
+    myFastCar.honk(); // Call back a function from superclass by using an object
+    System.out.println(myFastCar.brand + " " + myFastCar.modelName); // Display message
   }
 }
 
