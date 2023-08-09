@@ -1,11 +1,11 @@
 public class MyClass {
 
     public static void main(String args[]) {
-      Company a = new Company();
-      Company b = new eBay();
+      Company a = new Company(); // Company reference and object
+      Company b = new eBay(); // Company reference but eBay object
 
-      a.address();
-      b.address();
+      a.address(); // runs the method in Company class
+      b.address(); // runs the method in eBay class
   }
 }
 
