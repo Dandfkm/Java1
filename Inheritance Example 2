@@ -2,7 +2,7 @@ public class MyClass {
 
     public static void main(String args[]) {
       Company a = new Company();
-      Company b = new Company();
+      Company b = new eBayy();
 
       a.address();
       b.address();
