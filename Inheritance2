@@ -1,0 +1,21 @@
+// Inheritance (OOP) development
+
+public class Vehicle { // Superclass
+    
+    protected String brand = "Proton"; // String
+    public void honk() { // Method
+        System.out.println("Vroom, vroom!"); // Display message
+    }
+}
+
+// The Inheritance implements here
+
+class Car extends Vehicle { // Subclass derived from Superclass by using "extends"
+    
+    private String model = "Saga"; // String
+    public static void main(String args[]) { // Main Mehtod
+        Car myCar = new Car(); // Create an Object
+        myCar.honk(); // Callback a function from superclass by using an object
+        System.out.println(myCar.brand + " " + myCar.model); // Display message
+    }
+}
